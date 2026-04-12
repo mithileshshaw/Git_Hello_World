@@ -1,4 +1,4 @@
 # Git_Hello_World
-Revising Git commands collections 
+Git command collections by Mithilesh Shaw
 <br>
-Mithilesh Shaw first git commands
+
