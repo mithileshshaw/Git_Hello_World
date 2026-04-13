@@ -57,7 +57,7 @@ git push -- now use only this because -u is set as shortcut
 49:34	General Wrokflow
 		Git repo --> Clone --> Changes --> Add --> Commit --> Push
 
-52:00 Branch Commands
+52:00 Branch Sample Commands
 		git branch -- to check branch
 		git branch -M main -- to rename branch
 		git checkout <branch name> -- to navigate
@@ -95,11 +95,14 @@ git merge main -- will check this later
 58:00
 # Way 2
 Create a Pull Reqwuest -- It lets you tell others about changes you have pushed to a branch in a repo in Github
+						-- we will see it tries to merge feature 1 into main branch
+						-- Github will show No conflict with Green button means changes are done in differet line and not same line as in main
                         -- complete these steps in Github URL
+Merge pull request --> Confirm merge -- > Pull request successfully merged and closed
 
 git checkout main -- now you dont see feature1 changes even after pull req. since pull and merge done only on Github and not in Gitsystem
                     -- you need to pull all the details from github to local now
-git pull origin main -- now the changes are reflected in local also
+git pull origin main -- to bring remote changes into local . Now the changes are reflected in local also
 
 # Resolving Merging Conflict
 we are currently in main branch now and make some changes in index.html file
@@ -114,7 +117,7 @@ git add .
 git commit -m "Add dropdown"
 
 git diff main -- now we see the differnces in main and feature1 branches
-git merge main -- now in VS code index.html you will see some messages
+git merge main -- at present we are at feature1 branch, now in VS code index.html you will see some messages
                 -- choose wisely or you can manually correct the file by removing unncessary comments
                 -- lets add both deatails as of now button and dropdown
 git add .
