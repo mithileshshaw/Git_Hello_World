@@ -1,6 +1,3 @@
-# Git_Hello_World
-Git command collections by Mithilesh Shaw
-<br>
 # mith_github_practice
 This is first github learning session and exploring command
 
@@ -57,7 +54,7 @@ git push -- now use only this because -u is set as shortcut
 49:34	General Wrokflow
 		Git repo --> Clone --> Changes --> Add --> Commit --> Push
 
-52:00 Branch Sample Commands
+52:00 Branch sample Commands
 		git branch -- to check branch
 		git branch -M main -- to rename branch
 		git checkout <branch name> -- to navigate
@@ -121,11 +118,12 @@ git merge main -- at present we are at feature1 branch, now in VS code index.htm
                 -- choose wisely or you can manually correct the file by removing unncessary comments
                 -- lets add both deatails as of now button and dropdown
 git add .
-git commit -m "Add both features
-git diff main -- you will see on differences extra in main branch
+git commit -m "Add both features"
+git diff main -- you will see one differences extra in main branch
+
 git checkout main -- now the feature1 changes got vanish
-git merge feature1 -- now merging main and feature1.
-                    -- this time no mergre conflict because changes this time are in different line. previously it was in same line
+git merge feature1 -- now merging main with feature1.
+                    -- this time no mergre conflict because changes this time changes are in different line. previously it was in same line
 git push -- to push the changes and finally resolving the conflicst
 
 # Undoing changes
@@ -140,7 +138,7 @@ git reset -- for multiple file revert
 git satus -- we will see messages as Changes not staged for commit
 
 # Case 2: Committed Changes (for one commit)
-# git reset HEAD~1
+		-- # git reset HEAD~1
 
 git add .
 git commit -m "Delete button"
@@ -162,5 +160,5 @@ git status -- nothing to commit, working tree clean. We can verify the vscode fi
 
 # FORK 
     -- A fork is a new repository that shares code and visibility settings with the original "upstream" repository
-    -- Fork is rought copy
+    -- Fork is rough copy
 Steps -- Click on Fork, put your custom repository, Uncheck 'Copy the master branch only', Create fork
