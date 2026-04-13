@@ -57,7 +57,7 @@ git push -- now use only this because -u is set as shortcut
 49:34	General Wrokflow
 		Git repo --> Clone --> Changes --> Add --> Commit --> Push
 
-52:00 Branch Commands
+52:00 Branch sample Commands
 		git branch -- to check branch
 		git branch -M main -- to rename branch
 		git checkout <branch name> -- to navigate
