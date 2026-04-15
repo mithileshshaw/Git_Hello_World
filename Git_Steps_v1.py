@@ -76,7 +76,10 @@ git checkout main
 git branch -d feature2 -- for deleting the branch but it will throw error if we try deleting if we are in same branch
 git checkout main	-- first we need to change the branch
 git branch -d feature2
-git branch					
+    git push origin --delete feature2 -- Delete the remote branch but keep in local
+    git branch -D feature2 -- force delete the branch even if it is not merged with main
+git branch
+
 
 git checkout feature1 -- and make some changes in coding file
 git add .
