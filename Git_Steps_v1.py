@@ -168,3 +168,9 @@ git status -- nothing to commit, working tree clean. We can verify the vscode fi
     -- A fork is a new repository that shares code and visibility settings with the original "upstream" repository
     -- Fork is rough copy
 Steps -- Click on Fork, put your custom repository, Uncheck 'Copy the master branch only', Create fork
+
+
+Additional Commands:
+git merge --abort -- This cancels the merge process and returns your branch to the state before you ran the merge command
+git reset --hard HEAD~1 -- If you finished the merge locally but have not pushed it to a remote repository, you can reset your branch pointe
+git checkout feature_cmd_v1 -- style.css -- to checkout the file from another branch and replace the current file with it
