@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------
-# This is 2nd github learning session and exploring command
+# This is 2nd github learning session and exploring command..
 # link : https://www.youtube.com/watch?v=Kr8l7rQGwNs&t=14164s&pp=ygUVZ2l0IGh1YiBieSBhbnNoIGxhbWJh
 # -------------------------------------------------------------------
 
