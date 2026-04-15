@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------
-# This is first github learning session and exploring command
+# This is first github learning session and exploring command..
 # link : https://www.youtube.com/watch?v=Ez8F0nW6S-w
 # -------------------------------------------------------------------
 
