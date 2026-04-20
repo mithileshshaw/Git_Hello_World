@@ -169,8 +169,10 @@ git status -- nothing to commit, working tree clean. We can verify the vscode fi
     -- Fork is rough copy
 Steps -- Click on Fork, put your custom repository, Uncheck 'Copy the master branch only', Create fork
 
+# Additional command:
+git push origin --delete <branch_name> -- Delete the remote branch
+git branch -D feature_cmd_v2 -- slution for error: the branch 'feature_cmd_v2' is not fully merged. If you are sure you want to delete it then run this command
 
-Additional Commands:
 git merge --abort -- This cancels the merge process and returns your branch to the state before you ran the merge command
 git reset --hard HEAD~1 -- If you finished the merge locally but have not pushed it to a remote repository, you can reset your branch pointe
-git checkout feature_cmd_v1 -- style.css -- to checkout the file from another branch and replace the current file with it
+git checkout feature_cmd_v1 -- style.css
